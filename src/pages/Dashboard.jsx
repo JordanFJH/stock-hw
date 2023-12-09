@@ -24,10 +24,10 @@ function Dashboard(props) {
 
     // useEffect(() => {getData()}, [])
     return (
-        <div>
+        <div className="stock-list">
             {Data.map((stock, index) => (
                 <Link to={`/stocks/${stock.symbol}`} key={index}>
-                <h1>{stock.name} {stock.symbol} {stock.lastPrice}</h1>
+                <h1 className="single-stock">{stock.name}</h1>
                 </Link>
             ))}
         </div>

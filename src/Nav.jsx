@@ -11,7 +11,7 @@ function Nav(props) {
             </Link>
             <Link to={"/stocks"}>
                 <div>
-                    <h1>All Stocks</h1>
+                    <h1>Stock List</h1>
                 </div>
             </Link>
             <Link to={"/about"}>
